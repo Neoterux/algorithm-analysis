@@ -63,7 +63,7 @@ def as_interval(ns):
 if __name__ == '__main__':
     print_usr()
     print_os()
-    samples = 5
+    samples = 6
     for i in range(samples+1):
         max_items = 10**i
         print(f'+-----------[ Muestra de n={max_items} ]----------+')
